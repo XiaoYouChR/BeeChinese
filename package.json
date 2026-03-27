@@ -1,0 +1,15 @@
+{
+  "name": "beechinese",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @beechinese/api dev",
+    "dev:ai": "uvicorn main:app --reload --app-dir apps/ai-service",
+    "lint": "pnpm -r lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yml,yaml}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

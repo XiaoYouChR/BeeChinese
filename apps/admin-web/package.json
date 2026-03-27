@@ -1,0 +1,9 @@
+{
+  "name": "@beechinese/admin-web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'TODO: scaffold next.js app in next phase'",
+    "lint": "echo 'skip'"
+  }
+}
