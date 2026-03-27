@@ -1,0 +1,9 @@
+{
+  "name": "@beechinese/learner",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'TODO: scaffold taro app in next phase'",
+    "lint": "echo 'skip'"
+  }
+}
